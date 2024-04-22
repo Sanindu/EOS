@@ -1,0 +1,937 @@
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Kaushan+Script" rel="stylesheet">
+ <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css" />
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen">
+<script src="//cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.js"></script>
+<body>
+ 
+   <nav class="navbar fixed-top navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <h3 class="my-heading ">Project<span class="bg-main"> EOS</span></h3>
+            </a>
+
+            <div class="col-lg-12 text-right text-lg-right my-auto  wow zoomIn">
+              <ul class="list-inline mb-2">
+                  <li class="list-inline-item">
+                      <a href="http://www.linkedin.com/in/sanindurathnayake">LinkedIn <i class="fa fa-linkedin fa-2x fa-fw"></i></a>
+                  </li>
+                  <li class="list-inline-item">⋅</li>
+                  <li class="list-inline-item">
+                      <a href="http://github.com/Sanindu">GitHub <i class="fa fa-github fa-2x fa-fw"></i></a>
+                  </li>
+                  <li class="list-inline-item">⋅</li>
+                  <li class="list-inline-item">
+                      <a href="mailto:rathnayakesanindu99@gmail.com">Email <i class="fa fa-envelope fa-2x fa-fw"></i></a>
+                  </li>
+              </ul>
+          </div>
+
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-bars mfa-white"></span>
+            </button>
+
+            <div id="main">
+                <a href="javascript:void(0)" class="openNav"><span class="fa fa-bars" onclick="openNav()"></span></a>
+            </div>
+
+         
+           
+        <div id="mySidenav" class="sidenav">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+          <ul class="mob-ul">
+             <li class="nav-item"><a class="nav-link" href="#">Home</a></li>                                 
+          </ul>
+        </div>
+
+
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+
+            <!------    <ul class="navbar-nav ml-auto">
+                    <li class="nav-link">
+                <a class="btn btn-primary btn-block btn-login" href="#">Login</a> 
+                    </li>
+                    <li class="nav-link">
+                        <a class="btn btn-primary btn-block btn-register" href="#">Register</a>
+                    </li>
+
+                </ul> -->
+            </div>
+
+        </div>
+    </nav>
+
+    
+    <header class="masthead text-white ">
+        <div class="overlay"></div>
+        <div class="container slider-top-text">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3 class="my-heading">Project<span class="bg-main"> EOS</span></h3>
+                    <p class="myp-slider text-center">Damage Assessment for Flood using Remote Sensing</p>
+                    <p class="myp text-center">SATELLITE IMAGES   |  BUILDING DETECTION    | FLOOD INDEX </p>
+                <!--   <a class="btn btn-primary btn-join" href="#">JOIN THE COMMUNITY</a> -->
+
+                </div>
+                <div class="col-md-12 text-center mt-5">
+                    <div class="scroll-down">
+                        <a class="btn btn-default btn-scroll floating-arrow" href="#gobottom" id="bottom"><i class="fa fa-angle-down"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+<!-- INTRODUCTION-->
+    <section class="testimonials" id="gobottom">
+        <div class="container">
+            <div class="row">
+           <!--      <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="big-img">
+                        <img src="https://images.pexels.com/photos/167631/pexels-photo-167631.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid">
+                    </div>
+                </div> -->
+                <div class="col-md-12">
+                    <div class="inner-section wow fadeInUp">
+                        <h3> <span class="bg-main">INTRODUCTION</span></h3>
+                        <br>
+                        <p class="text-justify">Flood damage assessment is a crucial aspect of disaster recovery efforts, particularly in regions prone to flooding. 
+                          With advancements in machine learning and computer vision, researchers are developing smart solutions to accurately assess flood damage using satellite images. The proposed architecture for damage assessment includes a module specifically dedicated to flood damage. This module utilizes satellite imagery to detect buildings before and after the flood, classify the damage to buildings post-flood, calculate the damaged area, and provide an EOS index to evaluate flood severity. By leveraging deep learning techniques, this module aims to provide timely and accurate assessments of flood damage, enabling authorities to respond effectively and allocate resources efficiently in flood-affected areas.</p>
+
+                <!--   <div class="linear-grid">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s" >
+                                    <img src="https://images.pexels.com/photos/534031/pexels-photo-534031.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail">
+                                </div>
+                                <div class=" col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
+                                    <img src="https://images.pexels.com/photos/258804/pexels-photo-258804.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail">
+                                </div>
+                                <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
+                                    <img src="https://images.pexels.com/photos/285598/pexels-photo-285598.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail">
+                                </div>
+                                <div class="col-sm-6 col-md-3 mb-2 wow bounceInUp" data-wow-duration="1.4s">
+                                    <img src="https://images.pexels.com/photos/167605/pexels-photo-167605.jpeg?auto=compress&cs=tinysrgb&h=350" class="img-thumbnail">
+                                </div>
+                            </div>
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+<!-- Background and Motivation-->
+    <section class="testimonials" id="gobottom">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-12">
+                  <div class="inner-section wow fadeInUp">
+                      <h3> <span class="bg-main">Background and Motivation</span></h3>
+                      <br>
+                      <p class="text-justify">The use of satellite imagery for disaster damage assessment and response has grown in
+                        popularity. It is critical to prioritize rescue operations, disaster response, and relief activities
+                        following a disaster. These must be completed quickly and efficiently since resources are
+                        generally scarce in disaster-affected areas, and it is critical to identify the places that have
+                        sustained the most damage. However, the majority of current catastrophe mapping efforts are
+                        manual, which takes time and sometimes results in inaccurate data.
+                        Floods are among the most prevalent natural disasters that may harm people, infrastructure, and
+                        the environment. Floods are frequently seen in enormous amounts, and depending on the origin
+                        of the flood, they can inflict significant environmental and financial damage. Damage to a home
+                        or other types of structures is also common, and it may lead to a slew of issues in terms of
+                        restoration expenditures. It's crucial to have a flood damage monitoring system in place that can
+                        assess the extent of the damage caused by a flood.
+                        </p>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+<!-- Problem in Brief-->
+<section class="testimonials" id="gobottom">
+  <div class="container">
+      <div class="row">
+          <div class="col-md-12">
+              <div class="inner-section wow fadeInUp">
+                  <h3> <span class="bg-main">Problem in Brief</span></h3>
+                  <br>
+                  <p class="text-justify">Over the past few decades, natural disasters such as floods, wildfires
+                    have become more frequent than ever before. These disasters may cause
+                    severe damages not only to the properties but also be reasons for the loss of human and animal
+                    lives around the world. Furthermore, the effect of these disasters can be at individual levels or
+                    higher levels such as communities and have social, economic, and environmental consequences.
+                    In some cases, the damages can be irreversible. One of the most crucial and challenging tasks
+                    immediately following such a disaster is correctly estimating the tragedy's scope and severity. It
+                    will help to take necessary actions and thereby minimize the effects. This work is challenging in
+                    disaster-stricken areas. In these circumstances, remote sensing data is one of the best options for
+                    dealing with the problem. This study shows how to use remote sensing imagery from prior
+                    catastrophes to assess the damages caused by floods.
+                    </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Aim and Objectives-->
+<section class="testimonials" id="gobottom">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-md-12">
+              <div class="inner-section wow fadeInUp">
+                  <h3> <span class="bg-main">Aim and Objectives</span></h3>
+                  <br>
+                  <p class="text-justify">Find the total number of buildings, damaged buildings in a certain area due to a flood
+                    event, and total flooded area to create an index to find the severity of the flood.
+                    </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Proposed Solution-->
+<section class="testimonials" id="gobottom">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-md-12">
+              <div class="inner-section wow fadeInUp">
+                  <h3> <span class="bg-main">Proposed Solution</span></h3>
+                  <br>
+                  <p class="text-justify">For multiresolution, multisensor, and multitemporal satellite images, it used a neural network
+                    architecture and demonstrated that it can perform building footprint and flooded building
+                    segmentation tasks. Then automatic calculation of flooded area is done and using those
+                    parameters an index is created to assess the damage. This method may be used to anticipate
+                    damage from a variety of flood occurrences. When compared to existing approaches, it
+                    significantly reduces time required to prepare flood maps for first responders.
+                    </p>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- Review and Related Work-->
+<section class="testimonials" id="gobottom">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-md-12">
+
+            <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
+
+          </div> 
+
+              <div class="inner-section wow fadeInUp">
+                  <h3> <span class="bg-main">Review and Related Work</span></h3>
+                  <br>
+                  <p class="text-justify">Numerous experiments have shown that satellite images taken before, during, and after a flood,
+                    provided they are available, are useful in assessing flood damage in a variety of situations. The
+                    amount of the flood damage and the delineation of new flood limits may be determined using
+                    medium resolution data. In Indiana, Pantaleoni et al. (2007) employed Landsat data and change
+                    detection analysis to evaluate agricultural damage due to flooding [16]. For post-flood damage
+                    evaluation, Gianinetto et al. (2006) developed an integrated technique combining slope data from
+                    a Digital Elevation Model (DEM) with multitemporal Landsat images [13]. </p> 
+                    <p class="text-justify">
+                    High-resolution data are ideal for determining damage sites and severity. They can also be
+utilized as blueprints for the reconstruction of bridges, highways, residences, and other
+structures. Scarsi et al. (2014) suggested an unsupervised approach of change detection
+methodology over extremely high-resolution photos for differentiating and measuring distinct
+types of change that happened following the 2013 catastrophic flood event in Colorado [14].
+Chen et al. (2005) employed an automated change detection approach to estimate the damaged
+land use categories using an unsupervised classification on SPOT5 pictures taken before and
+after the 2004 tsunami [22].
+To create the reference water bodies map, a pre-flood Landsat image was further categorized.
+The comparison of water classes allows for the identification and quantification of flooded
+regions. Furthermore, the flooded regions for each district in the research area were computed
+utilizing mathematical procedures in a GIS context, and the susceptibility of land use/cover type
+was emphasized. 
+                    </p> <p class="text-justify"> 
+The water classes in the maps resulting from the Landsat and Aster image classification were
+recovered and exported as vector layers.
+</p> <p class="text-justify"> 
+● water class 2003 map - water bodies in their pre-event condition   
+</p>
+<p class="text-justify">  
+● water class 2004 map - permanent water bodies and flooding, used to identify the
+floods.
+An overlay intersection approach was used to construct the vector layer of water shown in both
+maps, which shows permanent water bodies.
+
+                    </p>
+                    <div >
+                      <img src="/assets/fig1.png" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Approach-->
+<section class="testimonials" id="gobottom">
+  <div class="container">
+      <div class="row">
+
+      <br>
+          <div class="col-md-12">
+              <div class="inner-section wow fadeInUp">
+                  <h3> <span class="bg-main">Approach</span></h3>
+                  <br>
+                  <p> Special Thanks To : Kunal Jethuri</p>
+                  <p class="text-justify">Free public images with a resolution of 0.5m per pixel were utilized from the Sentinel dataset of
+                    Very High Resolution Images (1973 * 2263 pixels). For both building and damage detection,
+                    masks (960 * 960 pixels) with a resolution of 1 meter per pixel were used.
+                    The area considered for the research is in Housten, Texas, USA and the flood event occurred in
+                    2017 which was caused by hurricane Harvey.
+                    
+                    </p>
+                    <p class="text-justify">
+                    For the flood damage assessment as preprocessing steps, VHR Images were downscaled to
+(1024,1024) resolution using BICUBIC resampling technique. Bicubic resampling uses cubic
+splines to calculate new pixels. This approach works on the 4 by 4 cell of pixels surrounding
+each new pixel position during upsampling. For most images, this is the recommended
+resampling approach since it provides a good balance of accuracy and speed. Then the image
+masks were upsampled to (1024,1024) resolution using the same BICUBIC resampling
+technique. Then the images and their respective Masks were cut into 4 patches of resolution
+(512,512) each. After that, both VHR Images and Masks were converted from int tensor (0-255)
+to float tensor (0-1) and normalized using imagenet stats.
+</p> 
+<p class="text-justify">
+
+  To train the model, U-Net is using Resnet-34 as a backbone. U-Net is a Convolutional Neural
+Network design for image segmentation that is quick and accurate. It's a network with encoders
+and decoders. The encoder component of the U-Net will be replaced by the resnet pretrained
+weights when using a U-Net with a pretrained resnet encoder. It's a transfer learning method,
+which means we don't have to train the model from the beginning.
+  </p>
+  Then to optimize the model ADAM optimizer is used. Adam is an optimizer that calculates
+adaptive learning rates for every parameter.
+
+<p class="text-justify">
+  Scheduler: One Cycle Policy is used for this model. The one cycle strategy consists of three
+steps.
+Using above techniques it is possible to identify the total number of buildings and damaged
+buildings by flood. Using those two parameters, Damaged Building Ratio is calculated by No. of
+Damaged Buildings/ Total No. of Buildings.
+</p>
+<p class="text-justify"> Next step is to identify the flooded area and calculate the area flooded by water. For that, first
+  calculated the Normalized Difference Water Index (NDWI), which distinguishes the water body
+  and dry land from satellite images, using the Green Band (B3) and Near Infrared (NIR) Band
+  (B8) of the data, before and after flood satellite images obtained using Sentinel-2. Then, utilizing
+  the NDWI of pre-flood and post-flood, created ground truth for the satellite photos. This is
+  obtained by taking the difference of water bodies in the image before and after flood. Finally a
+  flood map is created and then by using a pixel based approach, flooded pixels are calculated and
+  also the total number of pixels in the image is calculated by multiplying the height and width of
+  the image. By using those two parameters, flooded pixel ratio is calculated by flooded pixels/
+  Total pixels.
+  </p>
+  <p class="text-justify">
+  Here I have used counting the number of buildings on a satellite image using object detection
+algorithms. By detecting the edges of an image, the program can recognize the building and
+count the number of buildings in the image. Here it calculates the image density, whose integral
+over each image region tells the number of objects in that area.
+Because automated counting is objective, dependable, and repeatable, automatic systems are far
+more accurate than human counting when comparing the number of buildings. When a human
+counts manually, each measurement usually yields a different result, whereas automatic
+algorithms consistently produce a unique value. The application can recognize and count the
+total number of objects in the image automatically. One of the major challenges in the field of
+image processing is detecting a target item that is uncertain due to the presence of other objects.
+The canny edge detection algorithm detects the edges of the building by passing the high pass
+filtered image through it. It has a lot of sub functions, such as double thresholding, image
+differentiation based on intensity variations, and preventing false edges. At this stage, the
+secondary edges in the image are retrieved by removing connected components and performing
+edge detection.
+</p>        <div >
+  <img src="/assets/fig2.png" class="img-fluid">
+</div>
+<div >
+  <img src="/assets/fig4.png" class="img-fluid">
+</div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+<!-- Analysis and Design-->
+<section class="testimonials" id="gobottom">
+  <div class="container">
+      <div class="row">
+
+          <div class="col-md-12">
+
+            <div class="col-md-4 mb-3 wow bounceInUp" data-wow-duration="1.4s">
+
+          </div> 
+
+              <div class="inner-section wow fadeInUp">
+                  <h3> <span class="bg-main">Analysis and Design</span></h3>
+                  <br>
+                  <p class="text-justify">Flood Damage Assessment </p> 
+            
+                    <div >
+                      <img src="/assets/Picture2.jpg" class="img-fluid">
+                      <img src="/assets/Picture3.jpg" class="img-fluid">
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+</section>
+
+<!-- 
+    <section class="testimonials mybg-events">
+
+        <div class="container">
+            
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp">
+                    <h3 class="title-heading text-center">IMPLEMENTATION</h3>
+                    <p class="myp text-center">For multiresolution, multi-sensor, and multitemporal satellite images, we used an end-to-end
+                      trainable neural network architecture and demonstrated that it can perform building footprint and
+                      flooded building segmentation tasks, as well as demonstrating that publicly available imagery
+                      alone can be used for effective flooded building segmentation.
+                      </p>
+                </div>
+            </div>
+            <div class="row wow slideInLeft" data-wow-duration="3s">
+                <div class="col-md-4 mb-3">
+                    <div class="big-img2">
+                        <img src="/assets/fig5.png" class="img-fluid">
+                    </div>
+                    
+                </div>
+                <div class="col-md-8">
+                    <div class="inner-section">
+                        <div class="my-grid">
+                            <div class="row">
+                                <div class="col-sm-6 col-md-4 mb-3">
+                                   
+                                    <img src="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid">
+                                    
+                                </div>
+                                <div class="col-sm-6 col-md-8 mb-3 ">
+                                    
+                                    <img src=" https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid">
+                                
+                                </div>
+
+                                <div class="col-md-8 mb-3">
+                                    <div class="text-block">
+                                        <h5 class="events-heading">Lorem ipsum is simply dummy text of the printing and typesetting industry.</h5>
+                                        <p class="myp-font">contrary to popular belief, Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book and more recently with desktop publishing software like Aldus PageMaker.</p>
+                                    </div>
+                                </div>
+                                <div class=" col-md-4 ">
+                                     
+                                    <img src="https://images.pexels.com/photos/1150837/pexels-photo-1150837.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid">
+                                
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+ -->
+
+ <!-- 
+    <section class="testimonials text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto wow fadeInUp">
+                    <h3 class="text-center font-weight-bold">JOIN MOJO<span class="bg-main">AVE</span> GROUPS</h3>
+                    <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="card">
+                        <img class="card-img-top" src="/assets/fig5.png">
+                        <div class="card-block">
+
+                            <h4 class="card-title text-center">CATHERINA GAIL</h4>
+
+                            <div class="card-text text-center">
+                                <div class="social-icons">
+                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        <div class="card-block">
+
+                            <h4 class="card-title text-center">HARVEY RUBE</h4>
+
+                            <div class="card-text text-center">
+                                <div class="social-icons">
+                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        <div class="card-block">
+
+                            <h4 class="card-title text-center">JANET PRIS</h4>
+
+                            <div class="card-text text-center">
+                                <div class="social-icons">
+                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-3 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="card">
+                        <img class="card-img-top" src="https://images.pexels.com/photos/167445/pexels-photo-167445.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        <div class="card-block">
+
+                            <h4 class="card-title text-center">KEVIN WARD</h4>
+
+                            <div class="card-text text-center">
+                                <div class="social-icons">
+                                    <a href="#" class="btn btn-circle my-social-btn fb"><i class="fa fa-facebook"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn twitter"><i class="fa fa-twitter"></i></a>
+                                    <a href="#" class="btn btn-circle my-social-btn google"><i class="fa fa-google"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer text-center">
+                            <small>Lorem Ipsum is simply dummy text of the printing and typesetting</small>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    -->
+<!-- 
+    <section class="testimonials text-center mybg-music">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 wow fadeInUp">
+                    <h3 class="title-heading text-center font-weight-bold">MOJOAVE LATEST MUSIC</h3>
+                    <p class="myp text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/761963/pexels-photo-761963.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/838696/pexels-photo-838696.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/1047930/pexels-photo-1047930.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/164693/pexels-photo-164693.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/876713/pexels-photo-876713.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/258732/pexels-photo-258732.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/210887/pexels-photo-210887.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/210922/pexels-photo-210922.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/756242/pexels-photo-756242.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/167589/pexels-photo-167589.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/167626/pexels-photo-167626.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-2 mt-4 gal-item wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="music-gal item box">
+                        <a href="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="fancybox" rel="ligthbox">
+                        <img class="img-fluid" src="https://images.pexels.com/photos/167527/pexels-photo-167527.jpeg?auto=compress&cs=tinysrgb&h=650&w=940">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+  -->
+
+    <section class="testimonials bg-light" id="marketplace">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto wow fadeInUp">
+                    <h3 class="text-center font-weight-bold"><span class="bg-main"></span> IMPLEMENTATION</h3>
+                    <p class=" text-center">For multiresolution, multi-sensor, and multitemporal satellite images, we used an end-to-end
+                      trainable neural network architecture and demonstrated that it can perform building footprint and
+                      flooded building segmentation tasks, as well as demonstrating that publicly available imagery
+                      alone can be used for effective flooded building segmentation.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="card">
+                        <img class="card-img-top h-262" src="/assets/fig5.png">
+                        <div class="card-block">
+                            <h4 class="card-title">Segmentation summary</h4>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="card">
+                        <img class="card-img-top h-262" src="/assets/fig6.png">
+                        <div class="card-block">
+                            <h4 class="card-title">Loading plotted image</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="card">
+                        <img class="card-img-top h-262" src="/assets/fig7.png">
+                        <div class="card-block">
+                            <h4 class="card-title ">Building with masks</h4>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                  <div class="card">
+                      <img class="card-img-top h-262" src="/assets/fig8.png">
+                      <div class="card-block">
+                          <h4 class="card-title ">Prediction</h4>
+                      </div>
+                  </div>
+              </div>
+
+              <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                <div class="card">
+                    <img class="card-img-top h-262" src="/assets/fig9.png">
+                    <div class="card-block">
+                        <h4 class="card-title ">Prediction</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+              <div class="card">
+                  <img class="card-img-top h-262" src="/assets/fig10.png">
+                  <div class="card-block">
+                      <h4 class="card-title ">Images with masks</h4>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+            <div class="card">
+                <img class="card-img-top h-262" src="/assets/fig11.png">
+                <div class="card-block">
+                    <h4 class="card-title ">Images with masks</h4>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+          <div class="card">
+              <img class="card-img-top h-262" src="/assets/fig12.png">
+              <div class="card-block">
+                  <h4 class="card-title ">Green Band Visualization</h4>
+              </div>
+          </div>
+      </div>
+      <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+        <div class="card">
+            <img class="card-img-top h-262" src="/assets/fig13.png">
+            <div class="card-block">
+                <h4 class="card-title ">Near Infrared Visualization </h4>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+      <div class="card">
+          <img class="card-img-top h-262" src="/assets/fig14.png">
+          <div class="card-block">
+              <h4 class="card-title ">NDWI Band Visualization </h4>
+          </div>
+      </div>
+  </div>
+  <div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+    <div class="card">
+        <img class="card-img-top h-262" src="/assets/fig15.png">
+        <div class="card-block">
+            <h4 class="card-title ">NDWI Before Flood</h4>
+        </div>
+    </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig16.png">
+      <div class="card-block">
+          <h4 class="card-title ">Green Band</h4>
+      </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig17.png">
+      <div class="card-block">
+          <h4 class="card-title ">NIR Band Visualization </h4>
+      </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig18.png">
+      <div class="card-block">
+          <h4 class="card-title ">NDWI After Flood</h4>
+      </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig19.png">
+      <div class="card-block">
+          <h4 class="card-title ">NDWI After Flood</h4>
+      </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig20.png">
+      <div class="card-block">
+          <h4 class="card-title ">Mask After Flood Visualization</h4>
+      </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig21.png">
+      <div class="card-block">
+          <h4 class="card-title ">Mask Before Flood Visualization</h4>
+      </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig22.png">
+      <div class="card-block">
+          <h4 class="card-title ">Flood Map</h4>
+      </div>
+  </div>
+</div>
+<div class="col-sm-6 col-md-4 col-lg-4 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+  <div class="card">
+      <img class="card-img-top h-262" src="/assets/fig23.png">
+      <div class="card-block">
+          <h4 class="card-title ">Counting Number of Buildings</h4>
+      </div>
+  </div>
+</div>
+
+            </div>
+        </div>
+    </section>
+
+<!-- 
+    <section class="testimonials text-center ">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mx-auto wow fadeInUp">
+                    <h3 class="text-center font-weight-bold">MOJO<span class="bg-main">AVE</span> FEATURED ARTIST</h3>
+                    <p class=" text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6 col-md-4 col-lg-6 mt-4 wow bounceInUp" data-wow-duration="1.4s">
+                    <div class="big-img-3">
+                        <img src="https://images.pexels.com/photos/167480/pexels-photo-167480.jpeg?auto=compress&cs=tinysrgb&h=650&w=940" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-sm-6 col-md-4 col-lg-6 mt-4">
+                    <div class="my-right-text wow fadeInUp">
+
+                        <p class="text-justify font-italic">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets. remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown.</p>
+
+                        <a href="#" class="link-color">Michael U</a>
+                        <p class="text-muted">Lorem Ipsum Dolor Sit Amet</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+-->
+   
+    <footer class="footer bg-dark">
+        <div class="container">
+            <div class="row">
+               
+                <div class="col-lg-6 text-center text-lg-left my-auto  wow zoomIn">
+                    <ul class="list-inline mb-2">
+                        <li class="list-inline-item">
+                            <a href="http://www.linkedin.com/in/sanindurathnayake">LinkedIn <i class="fa fa-linkedin fa-2x fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item">
+                            <a href="http://github.com/Sanindu">GitHub <i class="fa fa-github fa-2x fa-fw"></i></a>
+                        </li>
+                        <li class="list-inline-item">⋅</li>
+                        <li class="list-inline-item">
+                            <a href="mailto:rathnayakesanindu99@gmail.com">Email <i class="fa fa-envelope fa-2x fa-fw"></i></a>
+                        </li>
+                    </ul>
+                    <p class="text-muted small mb-4 mb-lg-0">© Sanindu Rathnayake 2021. All Rights Reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+     <script>
+              new WOW().init();
+              </script>
+    <script>
+        $(window).scroll( function(){
+
+ 
+          var topWindow = $(window).scrollTop();
+          var topWindow = topWindow * 1.5;
+          var windowHeight = $(window).height();
+          var position = topWindow / windowHeight;
+          position = 1 - position;
+        
+          $('#bottom').css('opacity', position);
+        
+        });
+
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.display = "0";
+            document.body.style.backgroundColor = "white";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginRight= "0";
+            document.body.style.backgroundColor = "white";
+        }
+
+ 
+     $(window).on("scroll", function() {
+            if ($(this).scrollTop() > 10) {
+                $("nav.navbar").addClass("mybg-dark");
+                $("nav.navbar").addClass("navbar-shrink");
+              
+
+            } else {
+                $("nav.navbar").removeClass("mybg-dark");
+                $("nav.navbar").removeClass("navbar-shrink");
+               
+            }
+            
+      
+
+        });
+        
+        $(function() {
+  $('#bottom').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 500);
+        return false;
+      }
+    }
+  });
+});
+
+
+</script>
+<script>
+    $(document).ready(function(){
+      $(".fancybox").fancybox({
+            openEffect: "none",
+            closeEffect: "none"
+        });
+    });
+</script>
+    </body>
