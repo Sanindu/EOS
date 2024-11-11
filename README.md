@@ -4,9 +4,14 @@
 
 Flood damage assessment is a critical element in disaster recovery, especially in regions frequently affected by flooding. Leveraging advances in machine learning and computer vision, this project aims to assess flood damage accurately using satellite imagery. Our architecture includes a dedicated flood damage module that identifies buildings before and after floods, classifies damage levels, calculates affected areas, and generates an Earth Observation System (EOS) index to gauge flood severity. Through deep learning, this module supports timely and accurate flood damage assessments, enhancing the ability of authorities to respond and allocate resources effectively in flood-prone areas.
 
+### Image Masks
 ![](https://github.com/Sanindu/EOS/blob/main/eosv1.gif)
 
+### NDWI Generation
+
 ![](https://github.com/Sanindu/EOS/blob/main/eosv2.gif)
+
+### Building Counting
 
 ![](https://github.com/Sanindu/EOS/blob/main/eosv3.gif)
 
