@@ -8,6 +8,8 @@ Flood damage assessment is a critical element in disaster recovery, especially i
 
 ![](https://github.com/Sanindu/EOS/blob/main/eosv2.gif)
 
+![](https://github.com/Sanindu/EOS/blob/main/eosv3.gif)
+
 
 ## Background and Motivation
 
