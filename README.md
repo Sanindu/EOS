@@ -63,8 +63,6 @@ The project presents a robust method for assessing flood damage using satellite 
 
 ## How to Run
 
-## How to Run
-
 1. Clone the repository.
     ```bash
     git clone https://github.com/yourusername/flood-damage-assessment.git
