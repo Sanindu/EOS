@@ -65,7 +65,7 @@ The project presents a robust method for assessing flood damage using satellite 
 
 1. Clone the repository.
     ```bash
-    git clone https://github.com/Sanindu/flood-damage-assessment.git
+    git clone https://github.com/Sanindu/EOS.git
     cd ipynb_files
     ```
 2. Open the Jupyter Notebook file.
